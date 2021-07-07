@@ -23,7 +23,7 @@ This site demonstrates <a href="https://github.com/philhawksworth/netlify-plugin
 
 <h2>RELEVANT blog</h2>
 <ul class="listing">
-{%- for item in RELEVANT.rss.channel.item.slice(0,4) -%}
+{%- for item in RELEVANT.rss.channel.item.slice(0,10) -%}
   <li><a href="{{ item.link }}{{ site.utm }}">{{ item.title }}</a></li>
 {%- endfor -%}
 </ul>
