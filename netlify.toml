@@ -12,10 +12,26 @@
 
     # All the feeds we wish to gather for use in the build
     [[plugins.inputs.feeds]]
-      name = "hawksworx"
-      url = "https://hawksworx.com/feed.json"
-      ttl = 120   # Cache for 2 minutes
+      name = "RELEVANT"
+      url = "https://www.relevantmagazine.com/feed/"
+      ttl = 10800   # Cache for 3 hours
     [[plugins.inputs.feeds]]
-      name = "netlify"
-      url = "https://www.netlify.com/blog/index.xml"
+      name = "Christianity Today News"
+      url = "http://feeds.christianitytoday.com/christianitytoday/ctmag/"
       ttl = 86400   # Cache for 24 hours
+    [[plugins.inputs.feeds]]
+      name = "Christianity Today Hot Topics"
+      url = "http://feeds.christianitytoday.com/christianitytoday/hottopics/"
+      ttl = 86400   # Cache for 24 hours
+    [[plugins.inputs.feeds]]
+      name = "Christianity Today Most Reads"
+      url = "http://feeds.christianitytoday.com/christianitytoday/mostreads/"
+      ttl = 86400   # Cache for 24 hours
+    [[plugins.inputs.feeds]]
+      name = "Christianity Today Movie Features"
+      url = "http://feeds.christianitytoday.com/christianitytoday/moviefeatures/"
+      ttl = 86400   # Cache for 24 hours    
+    [[plugins.inputs.feeds]]
+      name = "Christianity Today Music Features"
+      url = "http://feeds.christianitytoday.com/christianitytoday/musicfeatures/"
+      ttl = 120   # Cache for 2 minutes   
